@@ -1,0 +1,31 @@
+wx:
+  miniapp:
+    appId:   # 小程序微信公众平台appId
+    secret:   # 小程序微信公众平台api秘钥
+  v3pay:
+    #小程序微信公众平台appId
+    appid:
+    #商户号
+    merchantId:
+    #商户API私钥路径
+    privateKeyPath: apiclient_key.pem
+    #商户证书序列号
+    merchantSerialNumber:
+    #商户APIV3密钥
+    apiV3key:
+    #异步回调地址
+    notifyUrl: http://localhost:8600/payment/wxPay/notify
+tencent:
+  cloud:
+    secretId:
+    secretKey:
+    region: ap-beijing
+    bucketPrivate:
+    persionGroupId: 1
+  map:
+    key:
+minio:
+  endpointUrl: http://localhost:9000
+  accessKey: admin
+  secreKey: admin123456
+  bucketName: ww
